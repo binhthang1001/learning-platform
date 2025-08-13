@@ -1,0 +1,12 @@
+mkdir -p backend/models backend/routes
+touch backend/app.js backend/models/User.js backend/models/Course.js backend/models/Lesson.js backend/routes/auth.js backend/routes/course.js backend/routes/lesson.js
+mkdir -p frontend/src/pages
+touch frontend/src/index.js frontend/src/App.js \
+frontend/src/pages/LoginPage.js frontend/src/pages/RegisterPage.js \
+frontend/src/pages/Dashboard.js frontend/src/pages/Courses.js \
+frontend/src/pages/CourseDetail.js frontend/src/pages/Forum.js \
+frontend/src/pages/AdminDashboard.js
+
+git add .
+git commit -m "Initial scaffold for learning platform project"
+git push
